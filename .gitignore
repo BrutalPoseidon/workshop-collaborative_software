@@ -4,3 +4,4 @@ gksolite/*.pyc
 gksolite/.*
 gksolite/*/*.pyc
 gksolite/pycache/
+gksolite/gksolite_unittests/.*
