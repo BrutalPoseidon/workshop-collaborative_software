@@ -1,0 +1,6 @@
+build/
+gksolite.egg-info/
+gksolite/*.pyc
+gksolite/.*
+gksolite/*/*.pyc
+gksolite/pycache/
