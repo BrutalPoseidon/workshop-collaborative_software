@@ -2,10 +2,10 @@ import sys
 import argparse
 import time
 
-from . import patterns
-from . import reader
-from . import boards
-from . import render
+import patterns
+import reader
+import boards
+import render
 
 try:
     import pyximport
@@ -72,7 +72,7 @@ CLI.add_argument(
     '-c', '--class',
     dest='gol_class',
     help='GOL implementation',
-    default='gksol.plain',
+    default='gksolite.plain',
 )
 CLI_BOARD = CLI.add_argument_group('Board settings')
 CLI_BOARD.add_argument(
